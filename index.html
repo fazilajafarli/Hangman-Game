@@ -10,8 +10,25 @@
     <body>
         <main class="container-fluid bg-image " style="background-image: url('assets/images/20211114_104030.jpg'); height: 800px;">
         <header class="header d-flex py-3 text-warning justify-content-center"><h2 class="fs-1">HANGMAN</h2></header>
-        <p class="fs-3 text-center text-warning">Guess the celestial object!</p>
+        <h3 class="fs-3 text-center text-warning">Guess the celestial object!</h3>
+        <div class="container-fluid">
+            <div class="holder">
 
+            </div>
+            
+           
+        <div class="w-50  text-center my-3">
+        <p id="word" class="text-warning fs-4 ">Press any key to get started!</p>
+
+        <div id="alphabet" class="pt-3">  
+     </div> 
+    </div>
+
+    <div class="float-right text-warning fs-5 my-3">Wrong guesses: <span id="mistakes">0</span> / <span id="maxMistake"></span></div>
+
+   
+    <button class="btn btn-info" onclick="reset()">Play again</button>
+</div>
 
     </main>
     <footer class="footer d-flex bg-dark py-2 text-white justify-content-center">
